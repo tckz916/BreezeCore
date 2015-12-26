@@ -1,0 +1,40 @@
+name: BreezeCore
+version: 1.0.0
+main: com.github.tckz916.breezecore.BreezeCore
+
+commands:
+  breezecore:
+    description: Help Command
+  stats:
+    description: Stats Command
+  recentstats:
+    description: Recentstats Command
+  uuid:
+    description: Uuid Command
+  rotation:
+    description: Rotation Command
+  prefix:
+    descripiton: Prefix Command
+permissions:
+  breezecore.admin:
+    description: ALL Command Permission
+    default: op
+    children:
+      breezecore.command.help: true
+      breezecore.command.stats: true
+      breezecore.command.recentstats: true
+      breezecore.command.uuid: true
+      breezecore.command.rotation: true
+      breezecore.command.prefix: true
+  breezecore.command.help:
+    default: op
+  breezecore.command.stats:
+    default: op
+  breezecore.command.recentstats:
+    default: op
+  breezecore.command.uuid:
+    default: op
+  breezecore.command.rotation:
+    default: op
+  breezecore.command.prefix:
+    default: op

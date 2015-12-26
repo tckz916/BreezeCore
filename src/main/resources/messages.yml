@@ -1,0 +1,36 @@
+prefix: '$7[$bBreezeCore$7] $r'
+
+error:
+  console: '$4This command can not be sent from the console.'
+  no-permission: '$4You do not have permissions.'
+  player-not-found: '$4Player is not found.'
+  connect: '$4Failed to connect.'
+  user-not-found: '$4User not found.'
+  tweet: '$4Message is too long.'
+  prefix-not-found: '$4prefix not found.'
+  already-exists: '$4Already exists.'
+  read-failed: '&4Read failed.'
+  token: '$4Already token exists.'
+  usage:
+    permission: '$7- $bPermission: $7{0}'
+    description: '$7- $bDescripiton: $7{0}'
+    usage: '$7- $bUsage: $7{0}'
+help:
+  header: '$7------- [$b BreezeCore $7] -------'
+  help: '$7- $b/breezecore $f- $7BreezeCore Command'
+  stats: '$7- $b/stats $f- $7Stats Command'
+  recentstats: '$7- $b/recentstats $f- $7Recentstats Command'
+  weatherinfo: '$7- $b/weatherinfo $f- $7Weatherinfo Command'
+  uuid: '$7- $b/uuid $f- $7Uuid Command'
+  rotation: '$7- $b/rotation $f- $7Rotation Command'
+  prefix: '$7- $b/prefix $f- $7Prefix Command'
+message:
+  prefix:
+    help: '$7Set the blank in $b#s'
+    add: '$r%prefix% $7Add to prefix list'
+    delete: '$7Remove $r%prefix% $7from prefix list'
+    get: '$7- {0} $f- $r%prefix%'
+    list: '$7- {0} $f- $r%prefix%'
+    rename: '$7Change prefix of $r%prefix%'
+    reset: '$7Reset $b%player% $7Name'
+    set: '$r%prefix% $7set to $b%player%'

@@ -1,0 +1,6 @@
+customtab:
+  header: '$eCustom Tab'
+  footer: '$aA Minecraft Server'
+prefix:
+  admin: '$7[$cAdmin$7] $r'
+  mod: '$7[$9Mod$7] $r'
